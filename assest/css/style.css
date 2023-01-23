@@ -94,7 +94,7 @@ body {
 .menu-right-avatar {
     width: 34px;
     height: 34px;
-    background: url('./assest/images/Camaro.jpg') no-repeat center;
+    background: url('../assest/images/Camaro.jpg') no-repeat center;
     background-size: cover;
     border-radius: 50%;
     border: #CCCCCC 1px solid;
@@ -154,7 +154,7 @@ body {
 .watching-video-actions-channel-infos-avatar {
     width: 42px;
     height: 42px;
-    background: url('./assest/images/Camaro.jpg') no-repeat center;
+    background: url('../assest/images/Camaro.jpg') no-repeat center;
     background-size: cover;
     border-radius: 50%;
     border: #CCCCCC 1px solid;

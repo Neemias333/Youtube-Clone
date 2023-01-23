@@ -1,0 +1,270 @@
+/*
+Foram alterados os nomes das classes de acordo com o que consta no html
+*/
+
+body {
+    position: relative;
+    width: 1340px;
+    height: 1024px;
+    background: #F9F9F9;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 24px;
+    gap: 32px;
+    position: absolute;
+    width: 1349px;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+.menu-left {
+    width: 146px;
+    height: 24px;
+}
+
+.menu-left-logo {
+    position: absolute;
+    width: 90px;
+    height: 20px;
+    left: 80px;
+    top: 18px;
+}
+
+.menu-left-menu {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 24px;
+    top: 16px;
+}
+
+.menu-center {
+    width: 370px;
+    height: 40px;
+    border: 1px solid #CCCCCC;
+}
+
+.menu-center-search {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 887px;
+    top: 16px;
+}
+
+.menu-center-rectangle-2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 65px;
+    height: 41px;
+    left: 868px;
+    top: 7px;
+    background: #F8F8F8;
+    border: 1px solid #CCCCCC;
+}
+
+.menu-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 130px;
+    height: 34px;
+}
+
+.menu-right-video {
+    width: 24px;
+    height: 24px;
+}
+
+.menu-right-bell {
+    width: 24px;
+    height: 24px;
+}
+
+.menu-right-avatar {
+    width: 34px;
+    height: 34px;
+    background: url('/assest/images/Camaro.jpg') no-repeat center;
+    background-size: cover;
+    border-radius: 50%;
+    border: #CCCCCC 1px solid;
+}
+
+.watching-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: 952px;
+    height: 746px;
+    left: 20px;
+    top: 84px;
+}
+
+.watching-video-image-2 {
+    width: 952px;
+    height: 537px;
+}
+
+.watching-video-h1 {
+    width: 871px;
+    height: 23px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.watching-video-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 42px;
+    width: 902px;
+    height: 42px;
+}
+
+.watching-video-actions-channel-infos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+    width: 160px;
+    height: 42px;
+}
+
+.watching-video-actions-channel-infos-avatar {
+    width: 42px;
+    height: 42px;
+    background: url('/assest/images/Camaro.jpg') no-repeat center;
+    background-size: cover;
+    border-radius: 50%;
+    border: #CCCCCC 1px solid;
+}
+
+.watching-video-actions-channel-infos-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    height: 40px;
+}
+
+.watching-video-actions-channel-infos-texto-1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.watching-video-actions-channel-infos-texto-2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #515151;
+}
+
+.watching-video-actions-subscribe-button {
+    width: 159px;
+    height: 40px;
+    left: 202px;
+    top: 1px;
+    background: #CC0000;
+    border: none;
+    border-radius: 2px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.watching-video-actions-like {
+    height: 24px;
+    width: 63px;
+    left: 403px;
+    top: 9px;
+    border-radius: 0px;
+}
+
+.watching-video-actions-deslike {
+    height: 24px;
+    width: 100px;
+    left: 508px;
+    top: 9px;
+    border-radius: 0px;
+}
+
+.watching-video-actions-share {
+    height: 24px;
+    width: 115px;
+    left: 650px;
+    top: 9px;
+    border-radius: 0px;
+}
+
+.watching-video-actions-download {
+    height: 24px;
+    width: 95px;
+    left: 807px;
+    top: 9px;
+    border-radius: 0px;
+}
+
+.watching-video-28-418 {
+    width: 391px;
+    height: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.watching-video-inicie {
+    width: 510px;
+    height: 64px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #515151;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    width: 160px;
+    height: 938px;
+    left: 990px;
+    top: 84px;
+}
